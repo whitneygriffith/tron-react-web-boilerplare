@@ -1,11 +1,10 @@
-require("dotenv").config();
+require('dotenv').config();
 
 module.exports = {
   networks: {
     development: {
-      // For trontools/quickstart docker image
-      privateKey:
-        "da146374a75310b9666e834ee4ad0866d6f4035967bfc76217c5a495fff9f0d0",
+// For trontools/quickstart docker image
+      privateKey: 'da146374a75310b9666e834ee4ad0866d6f4035967bfc76217c5a495fff9f0d0',
       consume_user_resource_percent: 30,
       fee_limit: 100000000,
 
@@ -20,7 +19,7 @@ module.exports = {
       network_id: "*"
     },
     mainnet: {
-      // Don't put your private key here:
+// Don't put your private key here:
       privateKey: process.env.PK,
       /*
       Create a .env file (it must be gitignored) containing something like
@@ -51,14 +50,14 @@ module.exports = {
       fee_limit: 100000000,
 
       // tronbox 2.1.9+
-      // fullHost: "https://api.shasta.trongrid.io",
+      fullHost: "https://api.shasta.trongrid.io",
 
       // tronbox < 2.1.9
-      fullNode: "https://api.shasta.trongrid.io",
-      solidityNode: "https://api.shasta.trongrid.io",
-      eventServer: "https://api.shasta.trongrid.io",
+      // fullNode: "https://api.shasta.trongrid.io",
+      // solidityNode: "https://api.shasta.trongrid.io",
+      // eventServer: "https://api.shasta.trongrid.io",
 
       network_id: "*"
     }
   }
-};
+}

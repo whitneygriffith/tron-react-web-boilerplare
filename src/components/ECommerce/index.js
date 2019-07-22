@@ -6,10 +6,10 @@ import eCommerceData from "./eCommerce-data";
 import "./ECommerce.scss";
 
 /// Add your contract address here////////////////////////////////å
-// base58 = "TLiXUGoitF1qPM6Z2c8g6fygiawoEyLXWL"
+const contractAddress = "415669ee254d19d44521bb5264f200ce279cbf3853";
+// base85v = "TLiXUGoitF1qPM6Z2c8g6fygiawoEyLXWL"
 // hex = "4175e28fbf92bcd5afae462bb93a217f1ef3b9b2af"
-const contractAddress = "Your contract address here";
-///////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
 
 export default class ECommerce extends Component {
   constructor(props) {
@@ -153,7 +153,15 @@ export default class ECommerce extends Component {
   render() {
     const { allItems, totalItems } = this.state;
     return (
-      <p>This will be the ECommerce Component </p>
+      <div className="eCommerce-component-container">
+        <div className="eCommerce-component-dash">
+          <div>Total Items In Store: {totalItems}</div>
+          <button onClick={this.checkItemsTotal}>Total Contract Items</button>
+          <button onClick={this.addItem}>Add Item</button>
+        </div>
+        <div className="eCommerce-item-container">{allItems}</div>
+      </div>
     );
   }
 }
+

@@ -1,5 +1,7 @@
-var MyContract = artifacts.require("./MyContract.sol");
+var Ecommerce = artifacts.require("./Ecommerce.sol");
+var Message = artifacts.require("./Message.sol");
 
 module.exports = function(deployer) {
-//  deployer.deploy(MyContract.sol);
+ deployer.deploy(Ecommerce);
+ deployer.deploy(Message);
 };

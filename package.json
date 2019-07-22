@@ -1,6 +1,6 @@
 {
-  "name": "ecommerce-hello-world",
-  "version": "1.0.0",
+  "name": "finitelab",
+  "version": "0.0.1",
   "description": "",
   "main": "tronbox.js",
   "directories": {
@@ -12,23 +12,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TRON-US/eCommerce-hello-world.git"
-  },
-  "author": "Ujwal Battar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TRON-US/eCommerce-hello-world/issues"
-  },
-  "homepage": "https://github.com/TRON-US/eCommerce-hello-world#readme",
   "dependencies": {
+    "braces": "^3.0.2",
     "node-sass": "^4.11.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^3.0.1",
     "sweetalert2": "^8.5.0",
-    "tronweb": "^2.3.4"
+    "tronweb": "^2.3.4",
+    "typescript": "^3.5.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
