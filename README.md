@@ -1,5 +1,7 @@
 ## Ref
 [TronDApp](https://github.com/alant/tron-starter)
+
+
 [Tron Get Started](https://github.com/TRON-US/eCommerce-hello-world)
 
 ## build steps
@@ -32,3 +34,8 @@ Run / build the react client
 ```414ab72df7ff2a6fa287ec0f1fc98894db19b363b7```
 ### Ecommerce
 ```41ef57a8b5a8fa63051b5fd2735b87c41723dd92b6```
+
+
+### To Do
+
+- Remove unnecessary packages in root folder
